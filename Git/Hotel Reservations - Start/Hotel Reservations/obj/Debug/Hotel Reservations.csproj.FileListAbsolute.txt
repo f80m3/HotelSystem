@@ -45,3 +45,6 @@ C:\Users\josmiran\Downloads\Hotel Reservations - Start (1)\Hotel Reservations - 
 C:\Users\El-TimBa\Desktop\Git\Hotel Reservations - Start\Hotel Reservations\bin\Debug\Hotel Reservations.exe.config
 C:\Users\El-TimBa\Desktop\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel Reservations.exe
 C:\Users\El-TimBa\Desktop\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel Reservations.pdb
+C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\bin\Debug\Hotel Reservations.exe.config
+C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel Reservations.exe
+C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel Reservations.pdb
