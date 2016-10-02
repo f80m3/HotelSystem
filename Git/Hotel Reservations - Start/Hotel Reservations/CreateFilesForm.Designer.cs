@@ -28,89 +28,129 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCreateHotels = new System.Windows.Forms.Button();
-            this.btnCreateInventory = new System.Windows.Forms.Button();
-            this.btnDisplayHotels = new System.Windows.Forms.Button();
-            this.btnDisplayInventory = new System.Windows.Forms.Button();
             this.lblStatus = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.createHotelsxmlFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.displayHotelsxmlsFileInBrowserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.createRoominventoryxmlFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.displayRoominventoryxmlFileInBrowserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadHotelFileButton = new System.Windows.Forms.Button();
+            this.ShowHtmlHotelsButton = new System.Windows.Forms.Button();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnCreateHotels
-            // 
-            this.btnCreateHotels.Location = new System.Drawing.Point(32, 37);
-            this.btnCreateHotels.Name = "btnCreateHotels";
-            this.btnCreateHotels.Size = new System.Drawing.Size(276, 66);
-            this.btnCreateHotels.TabIndex = 0;
-            this.btnCreateHotels.Text = "Create the hotels.xml file";
-            this.btnCreateHotels.UseVisualStyleBackColor = true;
-            this.btnCreateHotels.Click += new System.EventHandler(this.btnCreateHotels_Click);
-            // 
-            // btnCreateInventory
-            // 
-            this.btnCreateInventory.Location = new System.Drawing.Point(32, 119);
-            this.btnCreateInventory.Name = "btnCreateInventory";
-            this.btnCreateInventory.Size = new System.Drawing.Size(276, 66);
-            this.btnCreateInventory.TabIndex = 1;
-            this.btnCreateInventory.Text = "Create the roominventory.xml file";
-            this.btnCreateInventory.UseVisualStyleBackColor = true;
-            this.btnCreateInventory.Click += new System.EventHandler(this.btnCreateInventory_Click);
-            // 
-            // btnDisplayHotels
-            // 
-            this.btnDisplayHotels.Location = new System.Drawing.Point(339, 37);
-            this.btnDisplayHotels.Name = "btnDisplayHotels";
-            this.btnDisplayHotels.Size = new System.Drawing.Size(276, 66);
-            this.btnDisplayHotels.TabIndex = 2;
-            this.btnDisplayHotels.Text = "Display the hotels.xml file in a Web browser window";
-            this.btnDisplayHotels.UseVisualStyleBackColor = true;
-            this.btnDisplayHotels.Click += new System.EventHandler(this.btnDisplayHotels_Click);
-            // 
-            // btnDisplayInventory
-            // 
-            this.btnDisplayInventory.Location = new System.Drawing.Point(339, 119);
-            this.btnDisplayInventory.Name = "btnDisplayInventory";
-            this.btnDisplayInventory.Size = new System.Drawing.Size(276, 66);
-            this.btnDisplayInventory.TabIndex = 3;
-            this.btnDisplayInventory.Text = "Display the roominventory.xml file in a Web browser window";
-            this.btnDisplayInventory.UseVisualStyleBackColor = true;
-            this.btnDisplayInventory.Click += new System.EventHandler(this.btnDisplayInventory_Click);
             // 
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(28, 224);
+            this.lblStatus.Location = new System.Drawing.Point(12, 464);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(268, 29);
             this.lblStatus.TabIndex = 4;
             this.lblStatus.Text = "(status of last operation)";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(822, 33);
+            this.menuStrip1.TabIndex = 5;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.createHotelsxmlFileToolStripMenuItem,
+            this.displayHotelsxmlsFileInBrowserToolStripMenuItem,
+            this.createRoominventoryxmlFileToolStripMenuItem,
+            this.displayRoominventoryxmlFileInBrowserToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(50, 29);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // createHotelsxmlFileToolStripMenuItem
+            // 
+            this.createHotelsxmlFileToolStripMenuItem.Name = "createHotelsxmlFileToolStripMenuItem";
+            this.createHotelsxmlFileToolStripMenuItem.Size = new System.Drawing.Size(426, 30);
+            this.createHotelsxmlFileToolStripMenuItem.Text = "Create Hotels.xml file";
+            this.createHotelsxmlFileToolStripMenuItem.Click += new System.EventHandler(this.createHotelsxmlFileToolStripMenuItem_Click);
+            // 
+            // displayHotelsxmlsFileInBrowserToolStripMenuItem
+            // 
+            this.displayHotelsxmlsFileInBrowserToolStripMenuItem.Name = "displayHotelsxmlsFileInBrowserToolStripMenuItem";
+            this.displayHotelsxmlsFileInBrowserToolStripMenuItem.Size = new System.Drawing.Size(426, 30);
+            this.displayHotelsxmlsFileInBrowserToolStripMenuItem.Text = "Display Hotels.xmls file in browser";
+            this.displayHotelsxmlsFileInBrowserToolStripMenuItem.Click += new System.EventHandler(this.displayHotelsxmlsFileInBrowserToolStripMenuItem_Click);
+            // 
+            // createRoominventoryxmlFileToolStripMenuItem
+            // 
+            this.createRoominventoryxmlFileToolStripMenuItem.Name = "createRoominventoryxmlFileToolStripMenuItem";
+            this.createRoominventoryxmlFileToolStripMenuItem.Size = new System.Drawing.Size(426, 30);
+            this.createRoominventoryxmlFileToolStripMenuItem.Text = "Create roominventory.xml file";
+            this.createRoominventoryxmlFileToolStripMenuItem.Click += new System.EventHandler(this.createRoominventoryxmlFileToolStripMenuItem_Click);
+            // 
+            // displayRoominventoryxmlFileInBrowserToolStripMenuItem
+            // 
+            this.displayRoominventoryxmlFileInBrowserToolStripMenuItem.Name = "displayRoominventoryxmlFileInBrowserToolStripMenuItem";
+            this.displayRoominventoryxmlFileInBrowserToolStripMenuItem.Size = new System.Drawing.Size(426, 30);
+            this.displayRoominventoryxmlFileInBrowserToolStripMenuItem.Text = "Display roominventory.xml file in browser";
+            this.displayRoominventoryxmlFileInBrowserToolStripMenuItem.Click += new System.EventHandler(this.displayRoominventoryxmlFileInBrowserToolStripMenuItem_Click);
+            // 
+            // loadHotelFileButton
+            // 
+            this.loadHotelFileButton.Location = new System.Drawing.Point(167, 131);
+            this.loadHotelFileButton.Name = "loadHotelFileButton";
+            this.loadHotelFileButton.Size = new System.Drawing.Size(478, 88);
+            this.loadHotelFileButton.TabIndex = 6;
+            this.loadHotelFileButton.Text = "Load Hotel File ( click me first )";
+            this.loadHotelFileButton.UseVisualStyleBackColor = true;
+            this.loadHotelFileButton.Click += new System.EventHandler(this.loadHotelFileButton_Click);
+            // 
+            // ShowHtmlHotelsButton
+            // 
+            this.ShowHtmlHotelsButton.Location = new System.Drawing.Point(167, 239);
+            this.ShowHtmlHotelsButton.Name = "ShowHtmlHotelsButton";
+            this.ShowHtmlHotelsButton.Size = new System.Drawing.Size(478, 88);
+            this.ShowHtmlHotelsButton.TabIndex = 7;
+            this.ShowHtmlHotelsButton.Text = "Show hotels HTML";
+            this.ShowHtmlHotelsButton.UseVisualStyleBackColor = true;
+            this.ShowHtmlHotelsButton.Click += new System.EventHandler(this.ShowHtmlHotelsButton_Click);
+            // 
             // CreateFilesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(657, 286);
+            this.ClientSize = new System.Drawing.Size(822, 502);
+            this.Controls.Add(this.ShowHtmlHotelsButton);
+            this.Controls.Add(this.loadHotelFileButton);
             this.Controls.Add(this.lblStatus);
-            this.Controls.Add(this.btnDisplayInventory);
-            this.Controls.Add(this.btnDisplayHotels);
-            this.Controls.Add(this.btnCreateInventory);
-            this.Controls.Add(this.btnCreateHotels);
+            this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "CreateFilesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Hotel Reservations 1.0";
+            this.Text = "Assignment 2 - Faura  & Miranda";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnCreateHotels;
-        private System.Windows.Forms.Button btnCreateInventory;
-        private System.Windows.Forms.Button btnDisplayHotels;
-        private System.Windows.Forms.Button btnDisplayInventory;
         private System.Windows.Forms.Label lblStatus;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem createHotelsxmlFileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem displayHotelsxmlsFileInBrowserToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem createRoominventoryxmlFileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem displayRoominventoryxmlFileInBrowserToolStripMenuItem;
+        private System.Windows.Forms.Button loadHotelFileButton;
+        private System.Windows.Forms.Button ShowHtmlHotelsButton;
     }
 }
 

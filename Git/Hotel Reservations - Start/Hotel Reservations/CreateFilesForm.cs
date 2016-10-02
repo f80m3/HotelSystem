@@ -21,36 +21,46 @@ namespace Hotel_Reservations
             InitializeComponent();
             int index = Application.ExecutablePath.LastIndexOf("\\");
             saveDir = Application.ExecutablePath.Substring(0, index) + @"\..\..\";
+        }      
+
+        private void createHotelsxmlFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var hotels = _hotelsDataProvider.GetHotels();
+            var result = XmlSerializer.Serialize(hotels, saveDir + "hotels.xml");
+            if (!result.Succeded) MessageBox.Show("Ooops! Something Happened: " + result.Reason);
+            lblStatus.Text = "Last Action: Create Hotels";
         }
 
-        private void btnDisplayHotels_Click(object sender, EventArgs e)
+        private void createRoominventoryxmlFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var inventory = _hotelsDataProvider.GetRoomsInventory();
+            var result = XmlSerializer.Serialize(inventory, saveDir + "roominventory.xml");
+            if (!result.Succeded) MessageBox.Show("Ooops! Something Happened: " + result.Reason);
+            lblStatus.Text = "Last Action: Create Rooms Inventory";
+        }
+
+        private void displayHotelsxmlsFileInBrowserToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BrowserForm frm = new BrowserForm();
             frm.URL = "hotels.xml";
             frm.ShowDialog();
         }
 
-        private void btnDisplayInventory_Click(object sender, EventArgs e)
+        private void displayRoominventoryxmlFileInBrowserToolStripMenuItem_Click(object sender, EventArgs e)
         {
             BrowserForm frm = new BrowserForm();
             frm.URL = "roominventory.xml";
             frm.ShowDialog();
         }
 
-        private void btnCreateHotels_Click(object sender, EventArgs e)
-        {       
-            var hotels = _hotelsDataProvider.GetHotels();            
-            var result = XmlSerializer.Serialize(hotels, saveDir + "hotels.xml");
-            if(!result.Succeded) MessageBox.Show("Ooops! Something Happened: " +  result.Reason);
-            lblStatus.Text = "Last Action: Create Hotels";
+        private void loadHotelFileButton_Click(object sender, EventArgs e)
+        {
+
         }
 
-        private void btnCreateInventory_Click(object sender, EventArgs e)
-        {          
-            var inventory = _hotelsDataProvider.GetRoomsInventory();
-            var result = XmlSerializer.Serialize(inventory, saveDir + "roominventory.xml");
-            if (!result.Succeded) MessageBox.Show("Ooops! Something Happened: " + result.Reason);
-            lblStatus.Text = "Last Action: Create Rooms Inventory";
+        private void ShowHtmlHotelsButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

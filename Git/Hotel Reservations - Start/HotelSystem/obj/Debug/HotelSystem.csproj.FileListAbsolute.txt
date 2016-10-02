@@ -7,3 +7,8 @@ C:\Users\josmiran\Downloads\Hotel Reservations - Start (1)\Hotel Reservations - 
 C:\Users\josmiran\Downloads\Hotel Reservations - Start (1)\Hotel Reservations - Start\HotelSystem\obj\Debug\HotelSystem.csprojResolveAssemblyReference.cache
 C:\Users\josmiran\Downloads\Hotel Reservations - Start (1)\Hotel Reservations - Start\HotelSystem\obj\Debug\HotelSystem.dll
 C:\Users\josmiran\Downloads\Hotel Reservations - Start (1)\Hotel Reservations - Start\HotelSystem\obj\Debug\HotelSystem.pdb
+C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\bin\Debug\HotelSystem.dll
+C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\bin\Debug\HotelSystem.pdb
+C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\obj\Debug\HotelSystem.csprojResolveAssemblyReference.cache
+C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\obj\Debug\HotelSystem.dll
+C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\obj\Debug\HotelSystem.pdb

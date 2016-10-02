@@ -7,8 +7,7 @@ using System.Windows.Forms;
 namespace Hotel_Reservations
 {
     static class Program
-    {
-        //test
+    {       
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
