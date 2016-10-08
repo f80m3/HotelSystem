@@ -10,21 +10,21 @@ namespace HotelSystem
     {
         public Room CreateKing(double nightlyRate, int capacity)
         {
-            return new Room(RoomType.King, nightlyRate, capacity);
+            return new Room(RoomTypes.KB, nightlyRate, capacity);
         }
         public Room CreateQueen(double nightlyRate, int capacity)
         {
-            return new Room(RoomType.Queen, nightlyRate, capacity);
+            return new Room(RoomTypes.QB, nightlyRate, capacity);
         }
 
         public Room CreateDouble(double nightlyRate, int capacity)
         {
-            return new Room(RoomType.Double, nightlyRate, capacity);
+            return new Room(RoomTypes.DB, nightlyRate, capacity);
         }
 
         public Room CreateSuite(double nightlyRate, int capacity)
         {
-            return new Room(RoomType.Suite, nightlyRate, capacity);
+            return new Room(RoomTypes.BS, nightlyRate, capacity);
         }
     }
 }

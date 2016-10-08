@@ -57,3 +57,16 @@ C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\Hotel R
 C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel_Reservations.CreateFilesForm.resources
 C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel_Reservations.Properties.Resources.resources
 C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel Reservations.csproj.GenerateResource.Cache
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\bin\Debug\Hotel Reservations.exe.config
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel Reservations.exe
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel Reservations.pdb
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\bin\Debug\roomtypes.xml
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\bin\Debug\Hotel Reservations.exe
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\bin\Debug\Hotel Reservations.pdb
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\bin\Debug\HotelSystem.dll
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\bin\Debug\HotelSystem.pdb
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel Reservations.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel_Reservations.BrowserForm.resources
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel_Reservations.CreateFilesForm.resources
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel_Reservations.Properties.Resources.resources
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\Hotel Reservations\obj\Debug\Hotel Reservations.csproj.GenerateResource.Cache

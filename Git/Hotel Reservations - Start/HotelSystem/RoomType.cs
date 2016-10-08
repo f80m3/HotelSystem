@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace HotelSystem
 {
-    public enum RoomType
+    public class RoomType
     {
-        King,
-        Queen,
-        Double,
-        Suite,
+        public string id { get; set; }
+        public string name { get; set; }
+
+        public RoomType()
+        {
+        }
     }
 }

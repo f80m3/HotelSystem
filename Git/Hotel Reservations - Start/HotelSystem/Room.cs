@@ -8,12 +8,12 @@ namespace HotelSystem
 {
     public class Room
     {
-        public RoomType Type { get; set; }
+        public RoomTypes Type { get; set; }
         public double NightlyRate { get; set; }
         public int RoomCapacity { get; set; }
         public bool IsReserverd { get; set; }
        
-        public Room(RoomType type, double nightlyRate,int capacity)
+        public Room(RoomTypes type, double nightlyRate,int capacity)
         {
             Type = type;
             NightlyRate = nightlyRate;

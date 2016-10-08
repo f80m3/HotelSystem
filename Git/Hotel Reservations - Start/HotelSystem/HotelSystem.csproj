@@ -43,6 +43,7 @@
     <Compile Include="Feature.cs" />
     <Compile Include="FeaturesFactory.cs" />
     <Compile Include="Hotel.cs" />
+    <Compile Include="HotelListItem.cs" />
     <Compile Include="HotelsDataProvider.cs" />
     <Compile Include="InventoryType.cs" />
     <Compile Include="PointOfInterest.cs" />
@@ -52,7 +53,13 @@
     <Compile Include="Room.cs" />
     <Compile Include="RoomsFactory.cs" />
     <Compile Include="RoomType.cs" />
+    <Compile Include="RoomTypes.cs" />
     <Compile Include="XmlSerializer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="roomtypes.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

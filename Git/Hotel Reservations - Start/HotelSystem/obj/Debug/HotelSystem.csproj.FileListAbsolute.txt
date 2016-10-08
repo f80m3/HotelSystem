@@ -12,3 +12,9 @@ C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\HotelSy
 C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\obj\Debug\HotelSystem.csprojResolveAssemblyReference.cache
 C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\obj\Debug\HotelSystem.dll
 C:\Users\El-TimBa\Desktop\Git\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\obj\Debug\HotelSystem.pdb
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\bin\Debug\roomtypes.xml
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\bin\Debug\HotelSystem.dll
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\bin\Debug\HotelSystem.pdb
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\obj\Debug\HotelSystem.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\obj\Debug\HotelSystem.dll
+C:\Users\Sergio\Source\Repos\HotelSystem\Git\Hotel Reservations - Start\HotelSystem\obj\Debug\HotelSystem.pdb

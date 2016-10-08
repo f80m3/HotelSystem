@@ -10,10 +10,10 @@ namespace HotelSystem
     {
         public string Date { get; set; }
         public int HotelId { get; set; }
-        public RoomType RoomType { get; set; }
+        public RoomTypes RoomType { get; set; }
         public int AvailableRooms { get; set; }
 
-        public InventoryType(string date,int hotelId,RoomType roomType, int availableRooms)
+        public InventoryType(string date,int hotelId,RoomTypes roomType, int availableRooms)
         {
             Date = date;
             HotelId = hotelId;
